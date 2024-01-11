@@ -17,13 +17,14 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "personal-finance-calculator",
-		Width:  1024,
-		Height: 768,
+		Title:         "Personal Finance Calculator",
+		Width:         400,
+		Height:        500,
+		DisableResize: true,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
-		BackgroundColour: &options.RGBA{R: 27, G: 38, B: 54, A: 1},
+		BackgroundColour: &options.RGBA{R: 47, G: 58, B: 76, A: 1},
 		OnStartup:        app.startup,
 		Bind: []interface{}{
 			app,
