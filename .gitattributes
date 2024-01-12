@@ -1,2 +1,2 @@
-frontend/wailsjs linguist-generated=true
-build/ linguist-generated=true
+frontend/wailsjs/ linguist-vendored
+build/ linguist-vendored
