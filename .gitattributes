@@ -1,2 +1,2 @@
-frontend/wailsjs/* linguist-vendored
-build/* linguist-vendored
+frontend/wailsjs/** linguist-generated
+build/** linguist-generated
