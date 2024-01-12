@@ -8,4 +8,4 @@ This is an attempt to replicate the personal finance app by
 in [Wails](https://wails.io/)
 
 ## Installation
-Binaries of the application can be found in the releases.
+Binaries of the application can be found in the [releases](https://github.com/gray-adeyi/personal-finance-calculator/releases/tag/v0.0.1).
